@@ -17,5 +17,10 @@ public class Main {
         car2.accelerate(70);
         System.out.println(car2.getSpeed());
         System.out.println(car2);
+
+        //First Person
+        Person person = new Person("Leif", 24,"male","german");
+        person.greet();
+        System.out.println(person);
     }
 }
