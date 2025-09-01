@@ -21,5 +21,14 @@ public class Main {
         System.out.println(class2);
         System.out.println(class3);
 
+        int a = Calculator.add(1,2);
+        int b = Calculator.substract(1,2);
+        int c = Calculator.multiply(1,2);
+        int d = Calculator.divide(1,2);
+
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+        System.out.println(d);
     }
 }
